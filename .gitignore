@@ -1,0 +1,26 @@
+# Signing material
+keystore/
+keystore.properties
+*.jks
+*.keystore
+
+# Local machine paths
+local.properties
+
+# Build output (APKs are published on the Releases page)
+build/
+app/build/
+.gradle/
+.kotlin/
+*.apk
+*.aab
+captures/
+
+# IDE
+.idea/
+*.iml
+.cxx/
+
+# OS
+.DS_Store
+Thumbs.db

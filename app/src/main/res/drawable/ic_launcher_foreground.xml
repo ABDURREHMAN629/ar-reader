@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Bold open book that reads clearly at launcher size -->
+    <group android:name="book">
+        <!-- soft shadow under the book -->
+        <path
+            android:pathData="M54,40 C43,32 27,31 17,35 L17,82 C27,78 43,79 54,87 C65,79 81,78 91,82 L91,35 C81,31 65,32 54,40 Z"
+            android:fillColor="#33000000" />
+        <!-- left page -->
+        <path
+            android:pathData="M53,38 C42,30 27,29 18,33 L18,78 C27,74 42,75 53,83 Z"
+            android:fillColor="#FFFFFFFF" />
+        <!-- right page -->
+        <path
+            android:pathData="M55,38 C66,30 81,29 90,33 L90,78 C81,74 66,75 55,83 Z"
+            android:fillColor="#FFEDEBFF" />
+        <!-- spine -->
+        <path
+            android:pathData="M52,39 L52,83 L56,83 L56,39 Z"
+            android:fillColor="#FF4A38C8" />
+        <!-- left text lines -->
+        <path android:pathData="M27,44 L46,47" android:strokeColor="#FF6D77F5" android:strokeWidth="3" android:strokeLineCap="round" />
+        <path android:pathData="M27,53 L46,56" android:strokeColor="#FF9AA0F2" android:strokeWidth="3" android:strokeLineCap="round" />
+        <!-- right text lines -->
+        <path android:pathData="M62,47 L81,44" android:strokeColor="#FF6D77F5" android:strokeWidth="3" android:strokeLineCap="round" />
+        <path android:pathData="M62,56 L81,53" android:strokeColor="#FF9AA0F2" android:strokeWidth="3" android:strokeLineCap="round" />
+        <!-- bookmark ribbon -->
+        <path android:pathData="M69,29 L82,29 L82,56 L75.5,48 L69,56 Z" android:fillColor="#FFFFB020" />
+    </group>
+</vector>
